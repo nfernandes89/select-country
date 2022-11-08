@@ -104,5 +104,3 @@ function displayCountry(countryId) {
   document.querySelector(".country-minimumSalary-js span").innerHTML =
     country.minimumSalary;
 }
-
-button.onclick = displayCountry(countryId);
