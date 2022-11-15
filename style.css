@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1531266752426-aad472b7bbf4");
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 0 70px;
+}
+
+main {
+  width: 100%;
+  max-width: 300px;
+}
+
+.country-sel {
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.buttons.js {
+  height: 35px;
+}
+
+.country-desc-js {
+  max-width: 25rem;
+  min-width: 25rem;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  background: white;
+}
+
+img {
+  max-width: 300px;
+}
