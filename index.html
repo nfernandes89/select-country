@@ -4,26 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>World Countries Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script src="countries.js" defer></script>
   </head>
   <body>
-    <div>
-        <select name="buttons-js" class="buttons-js">
+    <h1>Ready to travel around the world?</h1>
+      <div class="country-sel">
+        <select name="buttons-js" class="buttons-js" onchange="displayCountry()">
             <option>Select a country</option>
         </select>
+      </div>
     <div class="country-desc-js" style="display: none">
       <img />
       <div class="country-name-js">Name: <span></span></div>
       <div class="country-capital-js">Capital: <span></span></div>
       <div class="country-population-js">Population: <span></span></div>
-      <div class="country-minimumSalary-js">Minimum Wage: <span></span></div>
+      <div class="country-region-js">Region: <span></span></div>
     </div>
-    <div class="country-lowestMinSalary-js">
-      Country with the lowest minimum wage:
     </div>
-    <div class="country-highestMinSalary-js">
-      Country with the highest minimum wage:
+    <div>
+      <canvas class="myChart"></canvas>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </div>
   </body>
 </html>
